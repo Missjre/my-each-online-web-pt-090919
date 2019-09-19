@@ -8,5 +8,5 @@ def my_each(words)
     counter = 0
     my_each(words) do |i|
       counter+=1
-    end
+end
    
