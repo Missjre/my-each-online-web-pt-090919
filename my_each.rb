@@ -8,6 +8,6 @@ def my_each(words)
     counter = 0
 
     my_each() do |item|
-      expect(item).to equal(words[counter])
-      counter+=1
+      counter+=1      expect(item).to equal(words[counter])
+
     end
